@@ -92,3 +92,10 @@ functions:
         path: / (http request path)
         method: get (HTTP method this handler will handle)
 
+after deploy Serverless framework provides endpoint 
+Serverless created our new AWS Lambda function and then configured API Gateway to point to this lambda function
+endpoints:
+  GET - https://ybza0t9l93.execute-api.us-east-1.amazonaws.com/dev/
+
+check it out
+curl https://ybza0t9l93.execute-api.us-east-1.amazonaws.com/dev/
