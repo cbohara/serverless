@@ -116,3 +116,5 @@ s3 permissions
 https://gist.github.com/tomfa/7bb519a34262353087a83712539eb6b0
 
 https://netdevops.me/2017/building-aws-lambda-with-python-s3-and-serverless/
+
+https://serverless.com/framework/docs/providers/aws/events/s3/
