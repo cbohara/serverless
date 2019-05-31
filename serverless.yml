@@ -27,9 +27,6 @@ provider:
 functions:
   typeform:
     handler: typeform.handler
-    environment:
-      FORM_ID: 'GsXgbL'
-      TF_TOKEN: '44TyNSjvqCDVQU1FbtoaHarewqxk6ApwggtTGLYbuagf'
     events:
       - http:
           path: /
