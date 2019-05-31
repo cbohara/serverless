@@ -94,8 +94,25 @@ functions:
 
 after deploy Serverless framework provides endpoint 
 Serverless created our new AWS Lambda function and then configured API Gateway to point to this lambda function
-endpoints:
+endpoints
   GET - https://ybza0t9l93.execute-api.us-east-1.amazonaws.com/dev/
 
 check it out
 curl https://ybza0t9l93.execute-api.us-east-1.amazonaws.com/dev/
+
+next task
+create simple typeform
+get input from user sent to API using webhooks options
+use serverless to setup api gateway and deploy lambda function
+get survery data from typeform and execute lambda function to transform input into a JSON file in s3
+
+https://www.typeform.com/help/webhooks/
+webhook = notification sent over the web
+notification is triggered after new typeform submission
+response data is sent to webhook URL
+notification sent via HTTP POST request and the request body (containing response data) is in JSON format
+
+s3 permissions
+https://gist.github.com/tomfa/7bb519a34262353087a83712539eb6b0
+
+https://netdevops.me/2017/building-aws-lambda-with-python-s3-and-serverless/
